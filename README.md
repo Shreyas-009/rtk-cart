@@ -2,6 +2,8 @@
 
 A modern, responsive e-commerce web application built to demonstrate state management using React and Redux Toolkit. 
 
+**Live Demo**: [https://rtk-cart-seven.vercel.app/](https://rtk-cart-seven.vercel.app/) 
+
 ## Features
 - **Product Listing**: View a variety of products with their prices, ratings, and descriptions.
 - **Wishlist Management**: Easily add or remove items from your personal wishlist. Your wishlist is highlighted in a dedicated Hero section on the Home page.
