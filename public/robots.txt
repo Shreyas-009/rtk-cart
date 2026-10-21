@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rtk-cart-seven.vercel.app/sitemap.xml
