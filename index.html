@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>RTK Cart | Modern Shopping &amp; Wishlist</title>
-    <meta name="description" content="Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart." />
+    <title>RTK Cart — Modern Shopping &amp; Wishlist (rtk-cart-seven.vercel.app)</title>
+    <meta name="description" content="Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart at rtk-cart-seven.vercel.app." />
 
-    <!-- Favicons: SVG for modern browsers, 48x48 for Google Search results, ICO fallback -->
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <!-- Google Search result favicon: 48x48 png first, followed by modern SVG and ICO -->
     <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="shortcut icon" href="/favicon.ico" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 
@@ -18,38 +18,68 @@
 
     <!-- Canonical & Search Engine Indexing -->
     <link rel="canonical" href="https://rtk-cart-seven.vercel.app/" />
-    <meta name="robots" content="index, follow" />
-    <meta name="keywords" content="RTK Cart, rtk-cart-seven, rtk-cart-seven.vercel.app, Redux Toolkit Shopping Cart" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="keywords" content="rtk-cart-seven.vercel.app, RTK Cart, rtk-cart-seven, Redux Toolkit Shopping Cart, eCommerce wishlist" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://rtk-cart-seven.vercel.app/" />
-    <meta property="og:title" content="RTK Cart | Modern Shopping &amp; Wishlist" />
-    <meta property="og:description" content="Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart." />
+    <meta property="og:title" content="RTK Cart — Modern Shopping &amp; Wishlist" />
+    <meta property="og:description" content="Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart at rtk-cart-seven.vercel.app." />
     <meta property="og:image" content="https://rtk-cart-seven.vercel.app/og-image.png" />
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:url" content="https://rtk-cart-seven.vercel.app/" />
-    <meta name="twitter:title" content="RTK Cart | Modern Shopping &amp; Wishlist" />
-    <meta name="twitter:description" content="Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart." />
+    <meta name="twitter:title" content="RTK Cart — Modern Shopping &amp; Wishlist" />
+    <meta name="twitter:description" content="Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart at rtk-cart-seven.vercel.app." />
     <meta name="twitter:image" content="https://rtk-cart-seven.vercel.app/og-image.png" />
 
-    <!-- Structured Data (JSON-LD) for Google Search Engine Rank -->
+    <!-- Structured Data (JSON-LD) for Search Engine Ranking & Site Identity -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "WebApplication",
-      "name": "RTK Cart",
-      "url": "https://rtk-cart-seven.vercel.app/",
-      "description": "Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart.",
-      "applicationCategory": "ShoppingApplication",
-      "operatingSystem": "All"
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://rtk-cart-seven.vercel.app/#website",
+          "url": "https://rtk-cart-seven.vercel.app/",
+          "name": "RTK Cart",
+          "alternateName": ["rtk-cart-seven", "rtk-cart-seven.vercel.app", "RTK Cart Seven"],
+          "description": "Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart."
+        },
+        {
+          "@type": "WebApplication",
+          "@id": "https://rtk-cart-seven.vercel.app/#webapp",
+          "url": "https://rtk-cart-seven.vercel.app/",
+          "name": "RTK Cart",
+          "applicationCategory": "ShoppingApplication",
+          "operatingSystem": "All",
+          "description": "Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart."
+        }
+      ]
     }
     </script>
   </head>
   <body>
-    <div id="root"></div>
+    <!-- Pre-rendered crawlable shell for instant SEO & search engine bot discovery without JS delay -->
+    <div id="root">
+      <header style="padding: 1rem; border-bottom: 1px solid #333;">
+        <h1>RTK Cart — Modern Shopping &amp; Wishlist</h1>
+        <p>Live deployment: <a href="https://rtk-cart-seven.vercel.app/">rtk-cart-seven.vercel.app</a></p>
+      </header>
+      <main style="padding: 1rem;">
+        <p>Explore top trending products, effortlessly manage your shopping cart, and curate your personal wishlist with RTK Cart. Built with React, Redux Toolkit, and Tailwind CSS.</p>
+        <nav>
+          <a href="/">Home</a> |
+          <a href="/products">Products</a> |
+          <a href="/cart">Cart</a>
+        </nav>
+      </main>
+    </div>
+    <noscript>
+      <p>JavaScript is required for interactive cart management. Visit <a href="https://rtk-cart-seven.vercel.app/">rtk-cart-seven.vercel.app</a> to browse products.</p>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>
